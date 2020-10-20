@@ -5,19 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latihan Git Collaboration</title>
     <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-    <nav class="nav-extend">
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Git</a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    <!-- start navigasi -->
+    <nav class="nav-extend green darken-1">
+        <div class="container navbar-fixed">
+            <div class="nav-wrapper">
+                
+                <!-- change logo here -->
+                <a href="#" class="brand-logo">Git</a>
+
+                <a href="#" class="button-collapse sidenav-trigger" data-activates="nav-mobile">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+    <!-- end navigasi -->
 
-    <script src="script.js"></script>
+    <!-- start slider -->
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="https://wowslider.com/sliders/demo-18/data1/images/hongkong1081704.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>This is our big Tagline!</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="https://wowslider.net/local-sliders/demo-10/data1/images/road220058.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                  <h3>Left Aligned Caption</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="https://wowslider.com/sliders/demo-18/data1/images/new_york.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                  <h3>Right Aligned Caption</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+        </ul>
+    </div>
+    <!-- end slider -->
+
+    <!-- team paozan -->
+
+    
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="src/js/script.js"></script>
+
 </body>
 </html>
