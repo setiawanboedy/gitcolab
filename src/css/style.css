@@ -1,0 +1,5 @@
+.slider .indicators{
+    position: absolute;
+    bottom: 80px;
+    z-index: 9;
+}
