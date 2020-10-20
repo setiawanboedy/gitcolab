@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 # Created by https://www.toptal.com/developers/gitignore/api/linux,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,visualstudiocode
 
@@ -17,7 +16,7 @@
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
-=======
+
 # Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,sass
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,sass
 
@@ -26,7 +25,6 @@
 *.css.map
 *.sass.map
 *.scss.map
->>>>>>> bf1512531ee64039bc3727d85ef0259eaa055df4
 
 ### VisualStudioCode ###
 .vscode/*
@@ -41,11 +39,6 @@
 .history
 .ionide
 
-<<<<<<< HEAD
-# End of https://www.toptal.com/developers/gitignore/api/linux,visualstudiocode
-
-.node_modules
-=======
 ### Windows ###
 # Windows thumbnail cache files
 Thumbs.db
@@ -73,4 +66,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,sass
->>>>>>> bf1512531ee64039bc3727d85ef0259eaa055df4
+node_modules
