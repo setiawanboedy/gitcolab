@@ -1,0 +1,32 @@
+$header: #ccc;
+$color: rgb(130, 105, 175);
+$body: white;
+
+body {
+    background-color: $body;
+}
+
+nav {
+    background-color: $header;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+
+    img {
+        width: 50px;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+
+        li {
+            list-style: none;
+            a {
+                text-decoration: none;
+                color: $color;
+            }
+        }
+    }
+}
