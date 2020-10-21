@@ -1,32 +1,21 @@
-$header: #ccc;
-$color: rgb(130, 105, 175);
-$body: white;
-
-body {
-    background-color: $body;
+.slider .indicators{
+    position: absolute;
+    bottom: 80px;
+    z-index: 9;
 }
 
-nav {
-    background-color: $header;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
+// style paozan
+$bContainer: rgb(233, 233, 233);
 
-    img {
-        width: 50px;
+#container {
+    background-color: $bContainer;
+    max-width: 80%;
+    margin: auto;
+    h1 {
+        font-size: 30px;
     }
 
-    ul {
-        display: flex;
-        justify-content: space-between;
-        width: 30%;
-
-        li {
-            list-style: none;
-            a {
-                text-decoration: none;
-                color: $color;
-            }
-        }
+    article h1 {
+        font-size: 20px;
     }
 }

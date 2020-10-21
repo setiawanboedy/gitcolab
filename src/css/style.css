@@ -1,5 +1,20 @@
-.slider .indicators{
-    position: absolute;
-    bottom: 80px;
-    z-index: 9;
+.slider .indicators {
+  position: absolute;
+  bottom: 80px;
+  z-index: 9;
 }
+
+#container {
+  background-color: #e9e9e9;
+  max-width: 80%;
+  margin: auto;
+}
+
+#container h1 {
+  font-size: 30px;
+}
+
+#container article h1 {
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
